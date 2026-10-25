@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1200,
+    "height": 600
+  },
+  "text": [
+    {
+      "id": "label",
+      "text": "协作单位：",
+      "x": 100,
+      "y": 351,
+      "font": "Microsoft YaHei UI",
+      "size": 28,
+      "bold": true,
+      "color": "#735441",
+      "tracking": 1,
+      "role": "label"
+    },
+    {
+      "id": "unit-a",
+      "text": "示例单位甲",
+      "x": 276,
+      "y": 352,
+      "font": "Microsoft YaHei UI",
+      "size": 26,
+      "bold": false,
+      "color": "#4F5356",
+      "tracking": 1,
+      "role": "unit"
+    },
+    {
+      "id": "separator-a",
+      "text": "·",
+      "x": 435,
+      "y": 354,
+      "font": "Microsoft YaHei UI",
+      "size": 26,
+      "bold": false,
+      "color": "#A38D72",
+      "tracking": 1,
+      "role": "separator"
+    },
+    {
+      "id": "unit-b",
+      "text": "示例单位乙",
+      "x": 465,
+      "y": 352,
+      "font": "Microsoft YaHei UI",
+      "size": 26,
+      "bold": false,
+      "color": "#4F5356",
+      "tracking": 1,
+      "role": "unit"
+    },
+    {
+      "id": "separator-b",
+      "text": "·",
+      "x": 624,
+      "y": 354,
+      "font": "Microsoft YaHei UI",
+      "size": 26,
+      "bold": false,
+      "color": "#A38D72",
+      "tracking": 1,
+      "role": "separator"
+    },
+    {
+      "id": "unit-c",
+      "text": "示例单位丙",
+      "x": 654,
+      "y": 352,
+      "font": "Microsoft YaHei UI",
+      "size": 26,
+      "bold": false,
+      "color": "#4F5356",
+      "tracking": 1,
+      "role": "unit"
+    },
+    {
+      "id": "date-label",
+      "text": "演示日期：",
+      "x": 100,
+      "y": 430,
+      "font": "Microsoft YaHei UI",
+      "size": 23,
+      "bold": false,
+      "color": "#927D66",
+      "tracking": 1,
+      "role": "label"
+    },
+    {
+      "id": "date",
+      "text": "2030年06月15日",
+      "x": 252,
+      "y": 430,
+      "font": "Microsoft YaHei UI",
+      "size": 23,
+      "bold": false,
+      "color": "#6D6256",
+      "tracking": 1,
+      "role": "date"
+    }
+  ],
+  "cleanup": [
+    {
+      "rect": [
+        80,
+        320,
+        1015,
+        160
+      ],
+      "mode": "plate",
+      "feather": 8,
+      "residualWeight": 0.35
+    }
+  ],
+  "expected": {
+    "unitCount": 3
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "图片小字清晰重排"
+  short_description: "将海报与背景墙的小字重新排清，保留原背景、整体版式和高清尺寸"
+  default_prompt: "使用 $image-text-retype 把这张图的小字重新排清楚，保留原背景、整体版式和原高清尺寸，另存新版本并核验。"

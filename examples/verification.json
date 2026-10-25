@@ -1,0 +1,36 @@
+{
+  "example": "fully synthetic Chinese text retyping",
+  "width": 1200,
+  "height": 600,
+  "font": "Microsoft YaHei UI",
+  "syntheticOnly": true,
+  "unitCount": 3,
+  "textItemCount": 8,
+  "allowedRects": [
+    [
+      80,
+      320,
+      1015,
+      160
+    ]
+  ],
+  "sourceUnchanged": true,
+  "changedOutsideAllowedRects": 0,
+  "changedAlphaPixels": 0,
+  "beforeVsCleanOutsideAllowedRects": 0,
+  "beforeSha256": "9c3644a3585b383666fe942184acf3ddedf0f741de586a98e6d661216c37eb9f",
+  "cleanSha256": "bf1f6f8cd364609d0d5e5b5fa17d60f458673b33c36f5608009114672a6a150b",
+  "afterSha256": "221f79e49073073e6e798d6f1a9e9ace5a48d5670acb61fd8472d0f629f52947",
+  "actualFonts": [
+    "Microsoft YaHei UI"
+  ],
+  "requiresVisualReview": true,
+  "visualInspection": {
+    "scope": [
+      "full before and after canvases",
+      "2x target-area crops"
+    ],
+    "status": "self-checked",
+    "findings": "Fictional unit names and date match the plan; the after text is sharp; no visible clipping, old pale outlines, seams, or layout shifts were found."
+  }
+}

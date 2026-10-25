@@ -1,0 +1,21 @@
+{
+  "name": "image-text-retype",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Re-typeset image text using real Windows fonts while preserving full resolution and pixels outside edit regions.",
+  "license": "MIT",
+  "author": "Hellplus",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hellplus/image-text-retype.git"
+  },
+  "engines": { "node": ">=20.9.0" },
+  "scripts": {
+    "test": "npm run test:compose && npm run test:render",
+    "test:compose": "node --test tests/compose.test.cjs",
+    "test:render": "powershell -NoProfile -ExecutionPolicy Bypass -File tests/test_renderer.ps1"
+  },
+  "dependencies": {
+    "sharp": "0.35.5"
+  }
+}

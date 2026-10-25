@@ -1,0 +1,8 @@
+node_modules/
+_work/
+demo-output-*/
+.cache/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
